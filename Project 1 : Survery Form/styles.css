@@ -1,0 +1,49 @@
+*{
+  user-select: none;
+}
+body{
+  background: linear-gradient(rgb(12,62,95) , rgb(10,80,166) , rgb(45,70,133));
+}
+h1,p{
+  text-align: center;
+  color: white;
+}
+h1{
+  font-family: cursive;
+}
+p{
+  font-family: lucida handwriting;
+  font-size: medium;
+}
+.form{
+  background: linear-gradient(rgb(122,32,45) , rgb(180,60,56) , rgb(215,90,13));
+  margin: auto;
+  padding: 20px;
+  color: white;
+  max-width: 500px;
+  display: block;
+}
+#name,#last-name,#email,#number,#dropdown,#text{
+  margin-bottom: 10px;
+}
+input[type="text"],input[type="email"],input[type="number"],#dropdown{
+  width: 100%;
+}
+fieldset{
+  margin-bottom: 10px;
+  
+}
+label{
+  display: block;
+}
+textarea{
+  width: 100%;
+}
+input[type="submit"]{
+  background-color: black;
+  color: white;
+  margin-top: 20px;
+  padding: 10px;
+   width: 100%;
+   
+}
