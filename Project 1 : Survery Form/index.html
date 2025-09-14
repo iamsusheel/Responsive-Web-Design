@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Genius Ninjas Survey Form </title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="styles.css"/>
+    </head>
+    <body>
+      <main>
+        <h1 id="title"> Genius Ninjas Survey Form </h1>
+        <p id="description"> Student Education Survey Form </p>
+        <div class="form">
+          <form id="survey-form" action="#" method="POST">
+            <label for="name" id="name-label"> First Name : <input type="text" name="first" id="name" placeholder="Enter your first name" required></label>
+             <label for="last-name" id="last-label"> Last Name : <input type="text" name="first" id="last-name" placeholder="Enter your last name" required></label>
+              <label for="email" id="email-label"> Email : <input type="email" name="first" id="email" placeholder="Enter your Email" required></label>
+               <label for="number" id="number-label"> Age : <input type="number" name="first" id="number" placeholder="Age" required min="18" max="50"></label>
+               <label> Choose one backend or frontend language ? 
+                 <select id="dropdown">
+                   <option> C++ </option>
+                   <option> Java </option>
+                   <option> Python </option>
+                   </select>
+                   </label>
+      <fieldset>             <legend> Choose one library or framework ? </legend>
+                    <label><input type="radio" name="main-radio" value="first">next.js</label>
+                   <label><input type="radio" name="main-radio" value="second">react.js</label>
+                   <label><input type="radio" name="main-radio" value="third">express.js</label>
+                   <label><input type="radio" name="main-radio" value="fourth">angular.js</label> </fieldset>
+
+          <fieldset>         <legend> Choose one basic skill you can learn ? </legend>
+                   <label><input type="checkbox" value="first-check">English</label>
+                   <label><input type="checkbox" value="second-check">Graphic Designing</label>
+                   <label><input type="checkbox" value="third-check">Data structures and Algorithms</label>
+             </fieldset>      
+                   <label id="text"> Any suggestions or questions regarding form ?</label>
+                   <textarea> Enter your suggestions here ... </textarea>
+                   <br>
+                   <input type="submit" id="submit">
+                   </div>
+                   </main>
+                   <body>
+                     </html>
+
